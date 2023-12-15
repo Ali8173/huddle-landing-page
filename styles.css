@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+
+}
+
+header {
+    background: url(/images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-size: contain;
+    font-family: "Poppins",
+        sans-serif;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    margin-inline: auto;
+    padding-block: 1.5rem;
+}
+
+header>div .button {
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    border: none;
+    border-radius: 100px;
+    padding-inline: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+header section {
+    margin-top: 3rem;
+    padding-inline: 4rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: .5rem;
+    line-height: 2.5rem;
+}
+
+header p {
+    line-height: 1.5rem;
+}
+
+section .button {
+    margin-top: 1rem;
+    padding-block: .8rem;
+    padding-inline: 4rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+header>section img {
+    padding-bottom: 2rem;
+    margin-top: 3.5rem;
+}
+
+header>div img {
+    width: 190px;
+    height: 30px;
+}
+
+main {
+    padding-top: 3rem;
+    font-family: "Open Sans",
+        sans-serif;
+}
+
+main section>img {
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+main section {
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    width: min(85%, 600px);
+    margin-inline: auto;
+    padding-inline: 3%;
+    text-align: center;
+    padding-block: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 0.05);
+}
+
+main p,
+main h2 {
+    padding-inline: 2rem;
+    line-height: 1.8;
+}
+
+main h2 {
+    margin-bottom: 1rem;
+}
+
+
+section+section {
+    margin-top: 3rem;
+}
+
+.your-user {
+    margin-bottom: 10rem;
+}
+
+main {
+    background-color: hsl(220, 100%, 99%);
+}
+
+.footer-section-img {
+    max-width: 100%;
+    width: 6%;
+    max-width: 8%;
+}
+
+.footer-logo {
+    margin-bottom: 2rem;
+    max-width: 40%;
+    margin-inline-start: 1.3rem;
+
+}
+
+.footer-section {
+    color: white;
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 8rem;
+    position: relative;
+}
+
+footer {
+    color: white;
+    height: 15vh;
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 3rem;
+    font-size: 10rem;
+}
+
+.section {
+    padding-inline: 0;
+    position: absolute;
+    top: -7rem;
+    right: 3%;
+    width: 90vw;
+
+}
+
+.footer-location {
+    display: flex;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.footer-location img {
+    max-width: 100%;
+    justify-self: baseline;
+    align-self: baseline;
+    padding-left: 1rem;
+}
+
+.extra-space {
+    margin-bottom: 3rem;
+}
+
+.footer-location p {
+    padding-left: 1.5rem;
+    width: max(400px 70%)
+}
+
+.footer-info {
+    padding-left: -.3rem;
+}
+
+.footer-info p {
+    margin-top: 1rem;
+}
+
+.footer-section-img {
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-block-end: 2rem;
+    margin-block-start: 4rem;
+    margin-inline: auto;
+    flex-direction: row;
+}
+
+.footer-section>p {
+    font-size: .8rem;
+}
+
+.footer-p {
+    text-align: center;
+}
+
+@media screen and (min-width:960px) {
+    header {
+        background: url(/images/bg-hero-desktop.svg);
+        background-color: hsl(193, 100%, 96%);
+        background-size: contain;
+        font-family: "Poppins",
+            sans-serif;
+    }
+
+    header>div .button {
+        background-color: white;
+        color: hsl(192, 100%, 9%);
+        border: none;
+        border-radius: 100px;
+        padding-inline: 24px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .header-together {
+        color: hsl(192, 100%, 9%);
+
+        margin-inline: auto;
+        text-align: left;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-together img {
+        width: 50%;
+    }
+
+    .header-first {
+        width: 50%;
+        padding-right: 4rem;
+        align-self: center;
+    }
+
+
+    .grow-together {
+        background-color: white;
+        color: hsl(192, 100%, 9%);
+        width: 80%;
+        margin-inline: auto;
+        padding-inline: 3%;
+        text-align: left;
+        padding-block: 3rem;
+        border-radius: 1.5rem;
+        box-shadow: 0 1px 8px 0 rgb(0 0 0 / 0.05);
+
+
+        display: flex;
+    }
+
+    .grow-together img {
+        order: 2;
+        width: 40%;
+    }
+
+    .grow-together article {
+        order: 1;
+        align-self: center;
+        padding-block: 2rem;
+        width: 60%;
+        padding-right: 1rem;
+    }
+
+    .flowing-converstion img {
+        order: 1;
+    }
+
+    .flowing-converstion article {
+        padding-left: 2.5rem;
+    }
+
+    .section {
+        padding-inline: 0;
+        position: absolute;
+        top: -7rem;
+        right: 14%;
+        width: 70vw;
+
+    }
+
+    .section-a {
+        background-color: hsl(192, 100%, 9%);
+        width: 100%;
+        color: white;
+
+        margin-inline: 0;
+        padding-inline: min(3rem 1rem);
+        text-align: left;
+        padding-block: 0;
+        border-radius: none;
+
+        display: flex;
+        align-items: start;
+    }
+
+    .section-a article {
+        width: 40%;
+    }
+
+    .footer-section-img img {
+        width: 30%;
+        align-self: start;
+        margin-top: -3rem;
+
+    }
+
+    .footer-section-img {
+        justify-content: start;
+        margin-left: 1rem;
+    }
+
+    .footer-logo {
+        padding-left: 1rem;
+    }
+
+    .footer-p {
+        text-align: right;
+        margin-right: 2rem;
+    }
+}
